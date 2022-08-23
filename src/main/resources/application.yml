@@ -1,0 +1,10 @@
+
+logging:
+  level:
+    com.logging: info
+    org.springframework.aop.interceptor: trace
+    org.springframework.web.filter.CommonsRequestLoggingFilter: debug
+
+spring:
+  logRequestResponse:
+    enabled: true
