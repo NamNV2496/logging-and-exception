@@ -15,8 +15,9 @@ public class ExampleController {
     @GetMapping("/hello")
     public String hello() {
 //        log.info(String.valueOf(4/0));
-        throw new RestException(ApiResponseCode.UNKNOWN_ERROR);
-//        return "Hello";
+//        throw new RestException(ApiResponseCode.UNKNOWN_ERROR);
+        log.info("Hello");
+        return "Hello";
     }
 
     @GetMapping("/person")
